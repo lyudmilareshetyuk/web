@@ -46,9 +46,12 @@
             background-color: #ff9bfe;
         }
 
-        .submit-input{
-            background-color: #1871ff;
+        .input-error{
+            border-color: #ff1313;
         }
+        /*.error-message{*/
+        /*    color: red;*/
+        /*}*/
 
     </style>
 </head>
@@ -56,7 +59,7 @@
 <div class="form-container">
 <h1>Registration form</h1>
 <form>
-    <div class="form-input">
+    <div class="form-input" id="name-input-container">
         <label for="user-name-input">Enter your name</label>
         <input type="text" id="user-name-input" placeholder="Name"/>
     </div>
@@ -73,34 +76,33 @@
         </select>
     </div>
 </form>
-    <div id="button-container">
-<button id="submit-input" disabled>Submit button</button>
-<button id="enable-submit" onclick="enableHandler()">Enable</button>
-<button id="add-listener" onclick="addListener()">Add listener</button>
-<button id="disable-submit" onclick="disableHandler()">Disable</button>
-</div>
+<button id="submit-input">Submit button</button>
+
+
 </div>
 <script type="text/javascript">
-    const button = document.querySelector("#submit-input");
-    const itWorksListner = (event) => {
-        event.preventDefault();
-        console.log("It works")
-    }
-    const divClickHandler = (event) => {
-        console.log("div clicked", event.target);
-        console.log("div clicked");
-    }
-    document.querySelector("#button-container").addEventListener("click", divClickHandler);
-    function enableHandler () {
-        button.disabled = false;
-    }
-    function addListener () {
-        button.addEventListener("click", itWorksListner);
-    }
-    function disableHandler () {
-        button.disabled = true;
-        button.removeEventListener("click", itWorksListner);
-    }
+    const nameInput = document.querySelector("#user-name-input");
+
+    let inputValue;
+
+    nameInput.addEventListener("input",()=> {
+        inputValue = nameInput.value;
+        console.log("", inputValue);
+    });
+
+    nameInput.addEventListener("blur",()=> {
+        console.log("blur happened");
+        if (!inputValue || inputValue.length < 4) {
+            nameInput.className = "input-error";
+            const p = document.createElement("p");
+            //p.className = "error-message";
+            document.querySelector("#name-input-container").append("Name field is required", p);
+        }
+    });
+    // nameInput.addEventListener("focus",()=> {
+    //     document.querySelector("#name-input-container > p").remove();
+    //
+    // });
 
 </script>
 </body>
