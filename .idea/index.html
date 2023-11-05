@@ -67,7 +67,7 @@
         </select>
     </div>
 </form>
-    <div onclick="divClickHandler()">
+    <div id="button-container">
         <button id="submit-input" disabled>Submit button</button>
         <button id="enable-submit" onclick="enableHandler()">Enable</button>
         <button id="add-listener" onclick="addListener">Add listener</button>
@@ -78,13 +78,17 @@
 <script type="text/javascript">
     const button = document.querySelector("#submit-input");
 
-    const itWorksListener = () => {
+    const itWorksListener = (event) => {
+        event.stopPropagation();
         console.log("It works");
     }
 
-    const divClickHandler = () => {
+    const divClickHandler = (event) => {
+        console.log("div clicked", event.target);
         console.log("div clicked");
     }
+
+    document.querySelector("#button-container").addEventListener("click", divClickHandler);
 
     function enableHandler () {
        button.disabled = false;
