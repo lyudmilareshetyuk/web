@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> </title>
     <style>
-        .container {
+        .form-container {
             width: 100%;
             height: 100%;
             display: flex;
@@ -19,11 +19,13 @@
             justify-content: center;
             gap: 24px;
         }
-        .form-input{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        #user-name-input, #user-type-unput, #password-input, #submit-input {
+            width: 350 px;
+            height: 25px;
+            padding: 20px;
+        }
+        label {
+            margin: 40px;
         }
         input[type=submit]{
         width: 100%;
@@ -42,6 +44,10 @@
         }
         input[type=password]:hover {
             background-color: #ff9bfe;
+        }
+
+        .submit-input{
+            background-color: #1871ff;
         }
 
     </style>
@@ -73,10 +79,14 @@
         <button id="add-listener" onclick="addListener">Add listener</button>
         <button id="disable-submit" onclick="disableHandler">Disable</button>
     </div>
-
 </div>
+
 <script type="text/javascript">
+
     const button = document.querySelector("#submit-input");
+    setTimeout(()=>{
+        button.className = "submit-input";
+    }, 3000);
 
     const itWorksListener = (event) => {
         event.stopPropagation();
