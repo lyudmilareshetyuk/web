@@ -43,30 +43,61 @@
         input[type=password]:hover {
             background-color: #ff9bfe;
         }
+
     </style>
 </head>
 <body>
-<div class="container">
+<div class="form-container">
 <h1>Registration form</h1>
 <form>
     <div class="form-input">
-        <label for="name-input">Enter your name</label>
-        <input type="text" id="name-input" placeholder="Name"/>
+        <label for="user-name-input">Enter your name</label>
+        <input type="text" id="user-name-input" placeholder="Name"/>
     </div>
     <div class="form-input">
         <label for="password-input">Enter your password</label>
         <input type="password" id="password-input" placeholder="Password"/>
     </div>
     <div class="form-input">
-        <label for="user-type-input">Select user type</label>
+        <label for="user-type-input">Select your role</label>
         <select id="user-type-input">
-            <option value ="Admin">Admin</option>
-            <option value ="User">User</option>
-            <option value ="Moderator">Moderator</option>
+            <option value ="0">Admin</option>
+            <option value ="1">User</option>
+            <option value ="2">Moderator</option>
         </select>
     </div>
-    <input type="submit" value="Submit form" />
 </form>
+    <div onclick="divClickHandler()">
+        <button id="submit-input" disabled>Submit button</button>
+        <button id="enable-submit" onclick="enableHandler()">Enable</button>
+        <button id="add-listener" onclick="addListener">Add listener</button>
+        <button id="disable-submit" onclick="disableHandler">Disable</button>
+    </div>
+
 </div>
+<script type="text/javascript">
+    const button = document.querySelector("#submit-input");
+
+    const itWorksListener = () => {
+        console.log("It works");
+    }
+
+    const divClickHandler = () => {
+        console.log("div clicked");
+    }
+
+    function enableHandler () {
+       button.disabled = false;
+    }
+
+    function addListener () {
+        button.addEventListener("click", itWorksListener);
+    }
+
+    function disableHandler () {
+        button.disabled = true;
+        button.removeEventListener("click", itWorksListener);
+    }
+</script>
 </body>
 </html>
