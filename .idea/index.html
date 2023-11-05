@@ -73,45 +73,44 @@
         </select>
     </div>
 </form>
-    <div id="button-container">
-        <button id="submit-input" disabled>Submit button</button>
-        <button id="enable-submit" onclick="enableHandler()">Enable</button>
-        <button id="add-listener" onclick="addListener">Add listener</button>
-        <button id="disable-submit" onclick="disableHandler">Disable</button>
-    </div>
+<!--    <div id="button-container">-->
+<!--        <button id="submit-input" onclick="handler()">Submit button</button>-->
+<!--        <button id="enable-submit" onclick="enableHandler()">Enable</button>-->
+<!--        <button id="add-listener" onclick="addListener()">Add listener</button>-->
+<!--        <button id="disable-submit" onclick="disableHandler()">Disable</button>-->
+<!--    </div>-->
 </div>
-
+<button id="submit-input" onclick="handler()">Submit button</button>
 <script type="text/javascript">
-
-    const button = document.querySelector("#submit-input");
-    setTimeout(()=>{
+    function handler () {
+        const button = document.querySelector("#submit-input");
         button.className = "submit-input";
-    }, 3000);
-
-    const itWorksListener = (event) => {
-        event.stopPropagation();
-        console.log("It works");
+        console.log("Hi, there!");
     }
-
-    const divClickHandler = (event) => {
-        console.log("div clicked", event.target);
-        console.log("div clicked");
-    }
-
-    document.querySelector("#button-container").addEventListener("click", divClickHandler);
-
-    function enableHandler () {
-       button.disabled = false;
-    }
-
-    function addListener () {
-        button.addEventListener("click", itWorksListener);
-    }
-
-    function disableHandler () {
-        button.disabled = true;
-        button.removeEventListener("click", itWorksListener);
-    }
+    // const itWorksListener = (event) => {
+    //     event.stopPropagation();
+    //     console.log("It works");
+    // }
+    //
+    // const divClickHandler = (event) => {
+    //     console.log("div clicked", event.target);
+    //     console.log("div clicked");
+    // }
+    //
+    // document.querySelector("#button-container").addEventListener("click", divClickHandler);
+    //
+    // function enableHandler () {
+    //    button.disabled = false;
+    // }
+    //
+    // function addListener () {
+    //     button.addEventListener("click", itWorksListener);
+    // }
+    //
+    // function disableHandler () {
+    //     button.disabled = true;
+    //     button.removeEventListener("click", itWorksListener);
+    // }
 </script>
 </body>
 </html>
