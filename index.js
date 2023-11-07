@@ -6,6 +6,7 @@ const port = 3000
 
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(express.static("public"))
 
 app.get('*', (req, res) => {
     res.sendFile("index.html", {root: path.join(__dirname, "./static")});
@@ -21,7 +22,6 @@ app.post('/reg-data', (req, res) => {
         }
     })
 })
-/*app.use("/static", express.static(__dirname + "/public"))*/
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
