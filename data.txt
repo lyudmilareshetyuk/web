@@ -1,2 +1,8 @@
 {"username":"User-1"}
 {"username":"User-2"}
+{"username":"person1","password":"3456789987234fd"}
+{"username":"person2","password":"5864ehw6yhsy"}
+{"username":"person3","password":"36w4qujatht"}
+{"username":"person5","password":"111157617HON"}
+{"username":"person6","password":"й43uejnwrbgr"}
+{"username":"person7","password":"q35tETV"}

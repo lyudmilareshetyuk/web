@@ -8,13 +8,13 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(express.static("static"))
 
-app.get('*', (req, res) => {
+app.get('registration', (req, res) => {
     res.sendFile("index.html",{root: path.join(__dirname, "./static")});
 })
 
 app.post('/reg-data', (req, res) => {
     console.log(">>", req.body)
-    fs.appendFile("data.txt", JSON.stringify(req.body), (err) => {
+    fs.appendFile("data.txt", JSON.stringify(req.body) + "\n", (err) => {
         if (err) {
             res.status(200).send("User not added")
         } else {
