@@ -9,10 +9,10 @@ function inputValidator(inputItem, valueLength, errorMessage, resultCheck){
     inputItem.addEventListener("blur", () => {
         value = inputItem.value
         if (!value || value.length < valueLength) {
-            inputItem.className = "input_error";
+            inputItem.className = "input-error";
             if (!inputItem.parentElement.children.item(2)) {
                 const p = document.createElement("p");
-                p.id = "error_message";
+                p.id = "error-message";
                 p.textContent = errorMessage;
                 inputItem.parentElement.append(p);
             }
@@ -40,7 +40,7 @@ function buttonActivator(nameResultOfCheck, passResultOfCheck){
             nameInput.className = "";
             return false;
         } else {
-            subButton.className = "input_error";
+            subButton.className = "input-error";
             subButton.disabled = true;
             return true;
         }

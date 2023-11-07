@@ -13,10 +13,10 @@ app.get('*', (req, res) => {
 })
 
 app.post('/reg-data', (req, res) => {
-    console.log(">>>>>>>>>>>>>>>>>>", req.body)
+    console.log(">>", req.body)
     fs.appendFile("data.txt", JSON.stringify(req.body), (err) => {
         if (err) {
-            res.status(500).send("User not added")
+            res.status(200).send("User not added")
         } else {
             res.status(201).send("User added")
         }
