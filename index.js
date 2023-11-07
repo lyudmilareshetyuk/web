@@ -1,34 +1,27 @@
 const express = require('express')
-/*const path = require("path")*/
+const path = require("path")
+const fs = require("fs")
 const app = express()
 const port = 3000
 
-/*app.use(express.json())*/
+app.use(express.json())
+app.use(express.urlencoded())
 
-app.get('/', (req, res) => {
-    res.send('Good morning!');
-    /*res.sendFile('index.html', {root: path.join(__dirname, "./static")})*/
-})
-app.get('/hello', (req, res) => {
-    res.send('Hello!');
-})
-app.get('/hi', (req, res) => {
-    res.send('hi! Get request recieved!');
+app.get('*', (req, res) => {
+    res.sendFile("index.html", {root: path.join(__dirname, "./static")});
 })
 
-app.post('/hi', (req, res) => {
-    res.send('hi! Post request recieved');
-})
-
-app.put('/hi', (req, res) => {
-    res.send('hi! Put request recieved');
-})
-
-/*
 app.post('/reg-data', (req, res) => {
-    console.log(">>>>>>>>>>>>>>>>>>>>>>>>", req.body)
+    console.log(">>>>>>>>>>>>>>>>>>", req.body)
+    fs.appendFile("data.txt", JSON.stringify(req.body), (err) => {
+        if (err) {
+            res.status(500).send("User not added")
+        } else {
+            res.status(201).send("User added")
+        }
+    })
 })
-*/
+/*app.use("/static", express.static(__dirname + "/public"))*/
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
