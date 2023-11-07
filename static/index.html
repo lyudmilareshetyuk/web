@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title> </title>
     <link rel="stylesheet" href="Styles.css">
+<div id="Day/Night-container">
+    <button id="Day/Night" class="dayAndNight-button">Day</button>
+</div>
 </head>
 <body>
 <div class="form-container">
@@ -13,7 +16,7 @@
         <label for="user-name-input">Enter your name</label>
         <input type="text" id="user-name-input" placeholder="Name" name="username">
     </div>
-    <div class="form-input">
+    <div class="form-input" id= "pass_input_container">
         <label for="password-input">Enter your password</label>
         <input type="password" id="password-input" placeholder="Password" name="password">
     </div>
@@ -26,31 +29,9 @@
         </select>
     </div>
 </form>
-<button id="submit-input">Submit button</button>
+<button id="submit-input" type="submit">Submit button</button>
 
 </div>
-<script type="text/javascript">
-    const nameInput = document.querySelector("#user-name-input");
-
-    let inputValue;
-
-    nameInput.addEventListener("input",()=> {
-        inputValue = nameInput.value;
-        console.log("", inputValue);
-    });
-
-    nameInput.addEventListener("blur",()=> {
-        console.log("blur happened");
-        if (!inputValue || inputValue.length < 4) {
-            nameInput.className = "input-error";
-            const p = document.createElement("p");
-            p.className = "error-message"
-            document.querySelector("#name-input-container").append("Name field is required", p);
-        }})
-    nameInput.addEventListener("focus",()=> {
-        document.createElement("#name-input-container > p").remote()
-    })
-
-</script>
+<script src="script.js"></script>
 </body>
 </html>
