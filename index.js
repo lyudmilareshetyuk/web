@@ -9,7 +9,7 @@ app.use(express.urlencoded())
 app.use(express.static("public"))
 
 app.get('*', (req, res) => {
-    res.sendFile("index.html", {root: path.join(__dirname, "./static")});
+    res.sendFile("index.html",{root: path.join(__dirname, "./static")});
 })
 
 app.post('/reg-data', (req, res) => {
