@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="updating styles">
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="checking git access">
+      <change afterPath="$PROJECT_DIR$/armageddon-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +59,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2XqFhLNTQ1CxdMrnueAXe0A8U19" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -62,7 +86,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.start dev.executor": "Run",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "E:\\STUDY\\PROGRAMMSFORSTUDY\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +99,17 @@
       <recent name="D:\PAPKi USERS_m\Users\Milochka\web\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -83,8 +120,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start dev" />
       </list>
     </recent_temporary>
@@ -116,7 +165,7 @@
       <workItem from="1731850728969" duration="180000" />
       <workItem from="1731852214240" duration="1412000" />
       <workItem from="1731859460260" duration="1005000" />
-      <workItem from="1731945087835" duration="638000" />
+      <workItem from="1731945087835" duration="10621000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -166,13 +215,36 @@
       <option name="project" value="LOCAL" />
       <updated>1699374865464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="checking git access">
+      <option name="closed" value="true" />
+      <created>1731945913433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731945913433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -184,12 +256,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&#10;users are not appended to the file from the local site, but are appended from postman" />
     <MESSAGE value="adding all files" />
     <MESSAGE value="adding all files 2" />
     <MESSAGE value="adding file Styles.css&#10;not work" />
     <MESSAGE value="file Styles.css work!" />
     <MESSAGE value="updating styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating styles" />
+    <MESSAGE value="checking git access" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking git access" />
   </component>
 </project>
