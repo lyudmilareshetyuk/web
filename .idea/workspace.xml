@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="checking git access">
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="added branch React">
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,7 +50,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -78,8 +69,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/PAPKi USERs/Users/STUDiEs/source/repos/web",
+    "git-widget-placeholder": "React",
+    "last_opened_file_path": "D:/PAPKi USERs/Users/STUDiEs/source/repos/web/armageddon-app/src/pages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,6 +85,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PAPKi USERS_m\Users\Milochka\web" />
       <recent name="D:\PAPKi USERS_m\Users\Milochka\web\static" />
@@ -165,7 +159,8 @@
       <workItem from="1731850728969" duration="180000" />
       <workItem from="1731852214240" duration="1412000" />
       <workItem from="1731859460260" duration="1005000" />
-      <workItem from="1731945087835" duration="10621000" />
+      <workItem from="1731945087835" duration="11231000" />
+      <workItem from="1732037340219" duration="7148000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -223,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731945913433</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)">
+      <option name="closed" value="true" />
+      <created>1731959689605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731959689605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +252,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="React" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -264,6 +279,7 @@
     <MESSAGE value="file Styles.css work!" />
     <MESSAGE value="updating styles" />
     <MESSAGE value="checking git access" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking git access" />
+    <MESSAGE value="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)" />
   </component>
 </project>
