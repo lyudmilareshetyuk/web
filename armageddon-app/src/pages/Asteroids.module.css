@@ -1,0 +1,15 @@
+.showDangerousOnly{
+
+}
+
+.distanceMode{
+    width: 26vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.distanceChooser{
+    justify-content: space-between;
+    text-decoration: underline;
+}

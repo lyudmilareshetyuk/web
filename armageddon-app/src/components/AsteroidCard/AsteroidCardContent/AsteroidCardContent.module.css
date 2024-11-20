@@ -1,0 +1,30 @@
+.contentName{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    left: 300px;
+    bottom: 280px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 26px
+}
+
+.contentWrapper{
+    position: relative;
+    width: 200px;
+    height: 0px;
+    left: 280px;
+    bottom: 250px;
+    font-weight: 500;
+}
+
+.contentDate{
+
+}
+.contentDistance{
+
+}
+
+.contentSize{
+
+}

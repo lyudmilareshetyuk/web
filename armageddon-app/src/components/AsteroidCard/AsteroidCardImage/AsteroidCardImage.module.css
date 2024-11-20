@@ -1,0 +1,7 @@
+.asteroidImage {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    bottom: 150px;
+}

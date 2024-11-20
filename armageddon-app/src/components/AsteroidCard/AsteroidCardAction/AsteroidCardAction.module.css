@@ -1,0 +1,19 @@
+.actionGrade{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    left: 700px;
+    bottom: 250px;
+}
+
+.action{
+    position: relative;
+    bottom: 180px;
+    left: 660px;
+}
+
+.actionText{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
