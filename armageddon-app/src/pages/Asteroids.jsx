@@ -12,8 +12,11 @@ export const Asteroids = ()=> {
         </div>
         <div className={styles.distanceMode}>
             Расстояние <button
-            className={styles.distanceChooser}> в дистанциях до луны
+            className={styles.distanceChooser}> в километрах
         </button>
+            <button
+                className={styles.distanceChooser}> в дистанциях до луны
+            </button>
         </div>
 
         <DangerAsteroidCard/>

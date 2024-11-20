@@ -1,1 +1,7 @@
-/*исправить все, это с файла Header.module.css*/
+.asteroidImage {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    bottom: 150px;
+}

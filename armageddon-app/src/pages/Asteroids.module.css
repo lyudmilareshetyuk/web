@@ -15,7 +15,13 @@
 }
 
 .distanceMode{
-
+    width: 26vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: underline;
 }
 
 .distanceChooser{
