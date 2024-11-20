@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="added branch React">
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroid.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" afterDir="false" />
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="Router">
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "React",
-    "last_opened_file_path": "D:/PAPKi USERs/Users/STUDiEs/source/repos/web/armageddon-app/src/pages",
+    "last_opened_file_path": "D:/PAPKi USERs/Users/STUDiEs/source/repos/web/armageddon-app/src/components/AsteroidCard/AsteroidCardAction",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,7 +93,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\components\AsteroidCard\AsteroidCardAction" />
+      <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\components\AsteroidCard\AsteroidCardContent" />
+      <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\components\AsteroidCard" />
       <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\pages" />
+      <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\components\AsteroidCard\AsteroidCardImage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PAPKi USERS_m\Users\Milochka\web" />
@@ -160,7 +171,8 @@
       <workItem from="1731852214240" duration="1412000" />
       <workItem from="1731859460260" duration="1005000" />
       <workItem from="1731945087835" duration="11231000" />
-      <workItem from="1732037340219" duration="7148000" />
+      <workItem from="1732037340219" duration="9448000" />
+      <workItem from="1732097901469" duration="10415000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -226,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731959689605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Router">
+      <option name="closed" value="true" />
+      <created>1732046268138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732046268138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +300,7 @@
     <MESSAGE value="updating styles" />
     <MESSAGE value="checking git access" />
     <MESSAGE value="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)" />
+    <MESSAGE value="Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="Router" />
   </component>
 </project>
