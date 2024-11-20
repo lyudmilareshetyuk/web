@@ -1,10 +1,21 @@
 import styles from "./Asteroids.module.css";
 import {AsteroidCard} from '../components/AsteroidCard/AsteroidCard';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export const Asteroids = ()=> {
     const [asteroids] = useState(generateAsteroids());
+
     const [onlyDangerous, setOnlyDangerous] = useState(false);
+
+    const [distanceMode, setDistanceMode] = useState(false);
+
+    useEffect(() => {
+        const result = fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=DEMO_KEY").then((res) => {
+            return res.json()
+        }).then((asteroids) => {
+            console.log(asteroids)
+        })
+    }, [])
 
     return <div>
         Home
@@ -13,12 +24,14 @@ export const Asteroids = ()=> {
         ></input>Показать только опасные
         </div>
         <div className={styles.distanceMode}>
-            Расстояние <button
+            Расстояние <button onClick={()=>setDistanceMode(true)}
             className={styles.distanceChooser}> в километрах
         </button>
-            <button
+            <button onClick={()=>setDistanceMode(false)}
                 className={styles.distanceChooser}> в дистанциях до луны
             </button>
+        </div>
+        <div style={{margin: "80px"}}>
         </div>
         {onlyDangerous ?
             asteroids.filter((item)=>item.isDangerous).map((item)=><AsteroidCard {...item}/>) :
