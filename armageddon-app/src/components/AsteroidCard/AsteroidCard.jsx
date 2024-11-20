@@ -3,20 +3,13 @@ import { AsteroidCardContent } from "./AsteroidCardContent/AsteroidCardContent";
 import { AsteroidCardImage } from "./AsteroidCardImage/AsteroidCardImage";
 import styles from "./Card.module.css"
 
-export const AsteroidCard = ()=>{
-    return (<div className={styles.card}>
-        <div className={styles.cardConst}></div>
-        <AsteroidCardImage/>
-        <AsteroidCardContent/>
-        <AsteroidCardAction/>
-    </div>)
-}
+export const AsteroidCard = (props)=>{
+    const{name, date, distance, size, isDangerous} = props;
 
-export const DangerAsteroidCard = ()=>{
     return (<div className={styles.card}>
-        <div className={styles.cardRed}></div>
+        <div className={isDangerous ? styles.cardRed : styles.cardConst}></div>
         <AsteroidCardImage/>
-        <AsteroidCardContent/>
-        <AsteroidCardAction/>
+        <AsteroidCardContent name={name} date={date} dictance={distance} size={size}/>
+        <AsteroidCardAction isDangerous={isDangerous}/>
     </div>)
 }

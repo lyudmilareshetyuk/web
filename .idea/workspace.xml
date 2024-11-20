@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="Setting up styles and page performance up to 8 practical">
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="practice 8 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" afterDir="false" />
     </list>
@@ -168,7 +167,7 @@
       <workItem from="1731859460260" duration="1005000" />
       <workItem from="1731945087835" duration="11231000" />
       <workItem from="1732037340219" duration="9448000" />
-      <workItem from="1732097901469" duration="16150000" />
+      <workItem from="1732097901469" duration="23808000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -250,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732109995864</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Setting up better styles">
+      <option name="closed" value="true" />
+      <created>1732115929273</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732115929273</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +313,8 @@
     <MESSAGE value="6 practical done (&quot;node_modules folder&quot; added to &quot;gitignor&quot;, added react-app &quot;armageddon-up&quot;, edited &quot;App.js&quot;, added button)" />
     <MESSAGE value="Router" />
     <MESSAGE value="Setting up styles and page performance up to 8 practical" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up styles and page performance up to 8 practical" />
+    <MESSAGE value="Setting up better styles" />
+    <MESSAGE value="practice 8 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice 8 completed" />
   </component>
 </project>

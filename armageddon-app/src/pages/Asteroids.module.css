@@ -1,15 +1,3 @@
-.container {
-    width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-/*исправить все, это с файла Header.module.css*/
-.showMode{
-
-}
 .showDangerousOnly{
 
 }
@@ -18,12 +6,10 @@
     width: 26vw;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
-    text-decoration: underline;
 }
 
 .distanceChooser{
-
+    justify-content: space-between;
+    text-decoration: underline;
 }
