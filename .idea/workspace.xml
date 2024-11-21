@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="data from the site is not loaded">
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImageDino.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="completed practice 9.2, added styles, added dino">
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +159,7 @@
       <workItem from="1731859460260" duration="1005000" />
       <workItem from="1731945087835" duration="11231000" />
       <workItem from="1732037340219" duration="9448000" />
-      <workItem from="1732097901469" duration="44384000" />
+      <workItem from="1732097901469" duration="44812000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -282,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732137165833</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="completed practice 9.2, added styles, added dino">
+      <option name="closed" value="true" />
+      <created>1732150999173</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732150999173</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +341,7 @@
     <MESSAGE value="practice 8 completed" />
     <MESSAGE value="practice 9.1 completed" />
     <MESSAGE value="data from the site is not loaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="data from the site is not loaded" />
+    <MESSAGE value="completed practice 9.2, added styles, added dino" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed practice 9.2, added styles, added dino" />
   </component>
 </project>

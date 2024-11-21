@@ -26,7 +26,7 @@ export const Asteroids = ()=> {
                         name: item.name,
                         date: close.close_approach_date,
                         size,
-                        distanceK: close.miss_distance.kilometers,
+                        distanceK: Math.trunc(close.miss_distance.kilometers),
                         distanceL: Math.trunc(close.miss_distance.lunar),
                         isDangerous: item.is_potentially_hazardous_asteroid,
                         id:item.id
