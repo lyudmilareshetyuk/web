@@ -1,6 +1,6 @@
 .contentName{
     position: relative;
-    width: 100px;
+    width: 1000px;
     height: 0px;
     left: 300px;
     bottom: 280px;
@@ -13,8 +13,8 @@
     position: relative;
     width: 200px;
     height: 0px;
-    left: 280px;
-    bottom: 250px;
+    left: 300px;
+    bottom: 240px;
     font-weight: 500;
 }
 
@@ -22,9 +22,9 @@
 
 }
 .contentDistance{
-
+    width: 1000px;
 }
 
 .contentSize{
-
+    width: 500px;
 }
