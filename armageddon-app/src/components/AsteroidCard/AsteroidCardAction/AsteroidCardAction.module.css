@@ -1,15 +1,16 @@
 .actionGrade{
     position: relative;
-    width: 100px;
+    width: 80px;
     height: 0px;
     left: 700px;
     bottom: 250px;
+    font-weight: bold;
 }
 
 .action{
     position: relative;
     bottom: 180px;
-    left: 660px;
+    left: 670px;
 }
 
 .actionText{
