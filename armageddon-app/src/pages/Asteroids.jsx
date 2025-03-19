@@ -11,7 +11,7 @@ export const Asteroids = ()=> {
 
     useEffect(() => {
         try{
-             const result = fetch("http://api.nasa.gov/neo/rest/v1/feed?api_key=RU9aORCzrAmwOsz9LZJoBgtbkqlcW5DM5XJcmjz1").then((res) => {
+             const result = fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=RU9aORCzrAmwOsz9LZJoBgtbkqlcW5DM5XJcmjz1").then((res) => {
                 return res.json()
             }).then((response) => {
                 let rawAsteroids = []
