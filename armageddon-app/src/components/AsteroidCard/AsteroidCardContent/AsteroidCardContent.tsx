@@ -1,6 +1,15 @@
 import styles from "./AsteroidCardContent.module.css"
 
-export const AsteroidCardContent = (props) => {
+type AsteroidCardContentProps = {
+    name: string;
+    date: string;
+    distanceK: number;
+    distanceL: number;
+    size: number;
+    distanceMode: boolean;
+}
+
+export const AsteroidCardContent = (props: AsteroidCardContentProps) => {
     const{name, date, distanceK, distanceL, size, distanceMode} = props;
 
     return (<div>
