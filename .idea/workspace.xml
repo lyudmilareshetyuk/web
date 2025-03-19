@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="completed practice 9.2, added styles, added dino">
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="corrected distance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,27 +60,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "React",
-    "last_opened_file_path": "D:/PAPKi USERs/Users/STUDiEs/source/repos/web/armageddon-app/src/components/AsteroidCard/AsteroidCardImage",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.start dev.executor": "Run",
-    "npm.start.executor": "Run",
-    "ts.external.directory.path": "E:\\STUDY\\PROGRAMMSFORSTUDY\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;React&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PAPKi USERs/Users/STUDiEs/source/repos/web/armageddon-app/src/components/AsteroidCard/AsteroidCardImage&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\STUDY\\PROGRAMMSFORSTUDY\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PAPKi USERs\Users\STUDiEs\source\repos\web\armageddon-app\src\components\AsteroidCard\AsteroidCardImage" />
@@ -159,7 +162,12 @@
       <workItem from="1731859460260" duration="1005000" />
       <workItem from="1731945087835" duration="11231000" />
       <workItem from="1732037340219" duration="9448000" />
-      <workItem from="1732097901469" duration="44812000" />
+      <workItem from="1732097901469" duration="45331000" />
+      <workItem from="1732202805062" duration="597000" />
+      <workItem from="1732207503980" duration="369000" />
+      <workItem from="1732296794016" duration="3050000" />
+      <workItem from="1742309922746" duration="5820000" />
+      <workItem from="1742385273972" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -281,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732150999173</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="corrected distance">
+      <option name="closed" value="true" />
+      <created>1732151087173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732151087173</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +358,7 @@
     <MESSAGE value="practice 9.1 completed" />
     <MESSAGE value="data from the site is not loaded" />
     <MESSAGE value="completed practice 9.2, added styles, added dino" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed practice 9.2, added styles, added dino" />
+    <MESSAGE value="corrected distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected distance" />
   </component>
 </project>
