@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="corrected distance">
+    <list default="true" id="30474046-d6c6-45b3-914b-8ebdf8708ed8" name="Changes" comment="changed file extensions to .tsx (AsteroidCard.jsx, AsteroidCardContent.jsx, Asteroids.jsx)">
+      <change afterPath="$PROJECT_DIR$/armageddon-app/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/eslint.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +88,7 @@
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
     &quot;npm.start dev.executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\STUDY\\PROGRAMMSFORSTUDY\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\PAPKi USERs\\Users\\STUDiEs\\source\\repos\\web\\armageddon-app\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -168,6 +179,8 @@
       <workItem from="1732296794016" duration="3050000" />
       <workItem from="1742309922746" duration="5820000" />
       <workItem from="1742385273972" duration="2417000" />
+      <workItem from="1742402863344" duration="12175000" />
+      <workItem from="1742415856591" duration="1165000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;users are not appended to the file from the local site, but are appended from postman">
       <option name="closed" value="true" />
@@ -297,11 +310,34 @@
       <option name="project" value="LOCAL" />
       <updated>1732151087173</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added TypeScript">
+      <option name="closed" value="true" />
+      <created>1742406852333</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742406852333</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed file extensions to .tsx (AsteroidCard.jsx, AsteroidCardContent.jsx, Asteroids.jsx)">
+      <option name="closed" value="true" />
+      <created>1742411205175</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742411205175</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCard.js" />
+        <option value="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.js" />
+        <option value="$PROJECT_DIR$/armageddon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
@@ -359,6 +395,8 @@
     <MESSAGE value="data from the site is not loaded" />
     <MESSAGE value="completed practice 9.2, added styles, added dino" />
     <MESSAGE value="corrected distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected distance" />
+    <MESSAGE value="added TypeScript" />
+    <MESSAGE value="changed file extensions to .tsx (AsteroidCard.jsx, AsteroidCardContent.jsx, Asteroids.jsx)" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed file extensions to .tsx (AsteroidCard.jsx, AsteroidCardContent.jsx, Asteroids.jsx)" />
   </component>
 </project>

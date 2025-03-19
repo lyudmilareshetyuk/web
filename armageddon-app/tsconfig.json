@@ -9,19 +9,9 @@
       "esnext"
     ],
     "target": "esnext",
-    "allowJs": true,
+    "allowJs": true
   },
   "exclude": [
     "node_modules"
   ]
-}
-
-
-
-
-
-
-
-
-
 }
