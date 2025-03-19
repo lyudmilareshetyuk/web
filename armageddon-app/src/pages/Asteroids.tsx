@@ -3,7 +3,13 @@ import {AsteroidCard} from '../components/AsteroidCard/AsteroidCard';
 import {useEffect, useState} from "react";
 
 export const Asteroids = ()=> {
-    const [asteroids,setAsteroids] = useState([]);
+    const [asteroids,setAsteroids] = useState<{name: string;
+        date: string;
+        distanceK: number;
+        distanceL: number;
+        size: number;
+        isDangerous: boolean;
+        id: string;}[]>([]);
 
     const [onlyDangerous, setOnlyDangerous] = useState(false);
 
@@ -42,9 +48,9 @@ export const Asteroids = ()=> {
 
     return <div>
         <h3>Home</h3>
-        <div className={styles.showDangerousOnly} onClick={()=>setOnlyDangerous(!onlyDangerous)}>
-            <input type="checkbox"
-        ></input>Показать только опасные
+        <div className={styles.showDangerousOnly}><input type="checkbox" value={onlyDangerous as unknown as string}
+                                                         onChange={()=>setOnlyDangerous(!onlyDangerous)}>
+            </input>Показать только опасные
         </div>
         <div className={styles.distanceMode}>
             Расстояние <button onClick={()=>setDistanceMode(true)}
@@ -64,7 +70,7 @@ export const Asteroids = ()=> {
     </div>
 }
 
-const generateAsteroids = x=>{
+const generateAsteroids =() =>{
     const month = [
         'января',
         'февраля',
@@ -85,7 +91,7 @@ const generateAsteroids = x=>{
         const date = `${(Math.random()*27 + 1).toFixed(0)} ${month[(Math.random()*12).toFixed(0)]} 2024`;
         const size = (Math.random()*1000 + 158).toFixed(0);
         const distanceK = (Math.random()*98033000).toFixed(0);
-        const distanceL = Math.trunc((distanceK) / 384399);
+        const distanceL = (Math.random()*98033000 / 384399).toFixed;
         const isDangerous = Math.random() >= 0.5;
         result.push({name,date, size, distanceK, distanceL, isDangerous, id: name});
     }
